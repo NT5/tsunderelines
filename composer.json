@@ -1,0 +1,30 @@
+{
+    "name": "nt5/tsundere-lines",
+    "type": "library",
+    "description": "PHP Tsundere lines",
+    "authors": [
+        {
+            "name": "Hendell Jonathan Porras Perez",
+            "email": "hendelporras@hotmail.com",
+            "homepage": "https://nt5.pw",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NT5\\TsundereLines\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
